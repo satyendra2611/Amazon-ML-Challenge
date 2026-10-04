@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Challenge output files
+output/
+*.tsv
+
+# Generated artifacts / trained models
+artifacts/
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.vscode/
+
+# Secrets
+.env

@@ -1,0 +1,23 @@
+# Business Entity Resolution -- pinned environment
+# Python 3.14.6 (any 3.11+ works; 3.14.6 is what the reported numbers were produced on)
+#
+# Every dependency is permissively licensed and installed from PyPI.  Nothing here
+# downloads model weights or contacts any service at run time, and the pipeline
+# performs no network access of any kind.
+#
+#   numpy        BSD-3-Clause
+#   pandas       BSD-3-Clause
+#   scipy        BSD-3-Clause
+#   scikit-learn BSD-3-Clause   (HistGradientBoostingClassifier -- the matcher)
+#   rapidfuzz    MIT            (string similarity)
+#   pyarrow      Apache-2.0     (TSV/parquet I/O)
+#   joblib       BSD-3-Clause   (model serialization)
+#   psutil       BSD-3-Clause   (runtime/memory measurement only)
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
+rapidfuzz==3.14.6
+pyarrow==23.0.1
+joblib==1.5.3
+psutil==7.2.2
